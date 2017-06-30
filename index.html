@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Psychic Game</title>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+
+  <link rel="stylesheet" type="text/css" href="assets/reset.css">
+  <link rel="stylesheet" type="text/css" href="assets/style.css">
+
+</head>
+<body class="container">
+    <h1>
+        Welcome to the Psychic Game!
+    </h1>
+    <br>
+    <div class="rules">
+        <p>
+            Rules of the game are simple. Simply press any letter on your keyboard to guess the letter your computer is thinking.
+        </p>
+            <br>
+        <p>
+            If you guess correctly you win! If not, well, keep trying until you do win!
+        </p>    
+            <br>
+        <p>
+            Enjoy!
+        </p>
+    </div>
+<br>
+<br>
+    <div class="results">You choose: 
+        <span id="userInput"></span>
+    </div>
+
+    <div class="results">Computer chose: 
+        <span id="computerInput"></span>
+    </div>
+
+    <div class="results">Wins: 
+        <span id="wins"></span>
+    </div>
+        
+    <div class="losses">Loses:
+        <span id="loses"></span>
+    </div>
+
+    <script type="text/javascript" src="script.js">
+        $(document).ready(function() {
+        });
+    </script>
+</body>
+</html>

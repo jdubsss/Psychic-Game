@@ -1,0 +1,42 @@
+.container {
+/*	width: 66%;
+*/	margin: 30px 20%;
+	background-color: #28353D;
+}
+
+h1 {
+	font-family: 'Raleway', sans-serif;
+	font-size: 36px;
+	text-decoration: underline;
+	line-height: 36px;
+	color: white;
+	font-style: bold;
+
+
+}
+
+.rules
+ {
+	line-height: 27px;
+	font-family: 'Raleway', sans-serif;
+	font-size: 18px;
+	font-style: thin;	
+	color: white;
+	background-color: #1a2a33;
+	padding: 30px;
+}
+
+
+.results {
+	line-height: 25px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	color: white;
+}
+
+.losses {
+	line-height: 25px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	color: #FF4A4A;
+}
